@@ -13,14 +13,16 @@ O banco de dados usa MongoDB.
 
 Crie um arquivo .ini na raiz do projeto e adicione suas credenciais do MongoDB Atlas com esse comando nele:
 
-[PROD]
-DB_URI = seu_uri_de_conexão_do_mongodb_atlas
+`[PROD]
+DB_URI = seu_uri_de_conexão_do_mongodb_atlas`
 
 ## Executando o Backend
 
 1. Abra o CMD na pasta do projeto.
 
-2. Digite o seguinte comando para iniciar o backend: python wsgi.py
+2. Digite o seguinte comando para iniciar o backend: 
+
+`python wsgi.py`
 
 Isso iniciará o servidor backend.
 
@@ -28,13 +30,17 @@ Isso iniciará o servidor backend.
 
 1. Abra o CMD na pasta do projeto.
 
-2. Execute o comando a seguir para instalar as dependências: npm install
+2. Execute o comando a seguir para instalar as dependências: 
+
+`npm install`
 
 3. Navegue até a pasta "List_Frontend" usando o comando `cd`.
 
 4. Abra um novo CMD na pasta "List_Frontend".
 
 5. Execute o seguinte comando para iniciar o frontend:
+
+`npm run dev`
 
 Isso iniciará o servidor de desenvolvimento para o frontend.
 
