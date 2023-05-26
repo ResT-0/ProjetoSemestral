@@ -9,6 +9,13 @@ O backend é desenvolvido em Python usando o WSGI como servidor.
 O frontend é desenvolvido em JavaScript usando npm como gerenciador de pacotes.
 
 O banco de dados usa MongoDB.
+## arquivos adicionais
+
+Crie um arquivo .ini na raiz do projeto e adicione suas credenciais do MongoDB Atlas:
+
+[PROD]
+DB_URI = seu_uri_de_conexão_do_mongodb_atlas
+
 ## Executando o Backend
 
 1. Abra o CMD na pasta do projeto.
